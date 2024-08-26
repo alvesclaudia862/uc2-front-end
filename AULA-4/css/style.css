@@ -1,0 +1,36 @@
+.quadrado{
+    /* height: Altura */
+    height: 30rem;
+    /* width: Largura ; */
+    width: 30rem;
+    /* Background-color: cor de Fundo */
+    background-color: rgb(122, 8, 122);
+    /* Text-align: Alinhamento horizontal do texto interno */
+    text-align: center;
+    /* Cor da Fonte da Classe */
+    color: yellow;
+    /* Line-height: Alinhar verticalmente caso mesmo valor de heigh seja definido */
+    line-height: 30rem;
+    /* fron-size: Tamanho da fonte */
+    font-size: 1.3rem;
+    /* font-family: Família da Fonte */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table {
+    margin-top: 30px;   
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd
+  }
