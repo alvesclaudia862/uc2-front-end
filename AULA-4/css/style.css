@@ -10,13 +10,17 @@
     /* Cor da Fonte da Classe */
     color: yellow;
     /* Line-height: Alinhar verticalmente caso mesmo valor de heigh seja definido */
-    line-height: 30rem;
+    line-height: 31rem;
     /* fron-size: Tamanho da fonte */
     font-size: 1.3rem;
     /* font-family: Família da Fonte */
     font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    /* Borda do quadrado */
+    border-style: solid;
+    border-width:0.5rem;
+    border-color: black;
 }
-
 
 table {
     margin-top: 30px;   
