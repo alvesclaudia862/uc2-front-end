@@ -1,0 +1,12 @@
+/* Define o estilo básico da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    margin: 0.1;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
