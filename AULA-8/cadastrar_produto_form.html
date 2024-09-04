@@ -13,22 +13,51 @@
     />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">PAINEL ADMIN - LOJA DE ROUPAS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">INÍCIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./consultar_produto_form.html">CONSULTAR PRODUTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cadastrar_produto_form.html">CADASTRAR PRODUTO</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+
     <!-- Passo 1:Criar essa "DIV" abaixo e colocar ao redor da tag "FORM" -->
     <!-- Passo 2: Jogar o "H2" no início do "form"-->
     <!-- Passo 3: Coloque os valores dentro da classe da tag "form"-->
 
     <div class="d-flex justify-content-center">
     <form class="w-45 pp-3 bg-light border">
-
-    <h2>Cadastro de Produto</h2>
+      <h2>Cadastro de Produto</h2>
     <!-- mb-3: margem inferior tamanho 3 -->
-    <div class="mb-3">
+      <div class="mb-3">
       <label for="name" class="form-label">Nome</label>
-      <input type="text"
-       class="form-control"
-       id="name"
+      <input 
+        type="text"
+        class="form-control"
+        id="name"
         name="name"
-         value=""
+        value=""
       />
     </div>
 
